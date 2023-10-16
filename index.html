@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Kanit&display=swap');
+form{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid black 3px;
+    padding: 20px;
+    background-color: linear-gradient(to bottom, rgb(223, 75, 215) 0%, white 100%);
+    font-family: 'Bowlby One SC', sans-serif;
+}
+body,html{
+    background-color: rgb(58, 180, 21);
+}
+form{
+    background-color: rgb(16, 128, 148) ;
+}
+
+
+    </style>
+</head>
+<body>
+    <form>
+            <label for="imie" id="imie1">Imię:</label><br>
+            <input type="text" id="imie" name="imie" placeholder=""><span style="color: rgb(209, 39, 152)"></span><br>
+            <label for="nazwisko">nazwisko:</label><br>
+            <input type="text" name="nazwisko" id="nazwisko"><br>
+            <label for="emial">E-mail:</label><br>
+            <input type="mail" name="email" id="email"><br>
+            <label for="password">Hasło</label><br>
+            <input type="password" name="password" id="password"><br>
+            <label for="color">Wybierz swój kolor: </label>
+            <input type="color" name="color" id="color" value="#666456"><br>
+            <input type="submit" name="submit" id="submit" value="WYŚLIJ!">
+    </form>
+    
+</body>
+</html>
